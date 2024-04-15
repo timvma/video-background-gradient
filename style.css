@@ -1,0 +1,42 @@
+body {
+    background-color: #333;
+    color: #fff;
+    
+}
+
+section {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+video {
+    width: 100%;
+    height: auto;
+
+}
+.video__controller {
+    width: 100%;
+    max-width: 1000px;
+}
+.video__controller {
+    border-radius: 10px;
+
+}
+
+.video__container {
+    position: relative;
+}
+.video__bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: blur(3rem);
+    z-index: -1;
+    opacity: 0;
+    transition: all ease 500ms;
+}
+.video__controller--movie {
+    opacity: 1;
+    
+}
